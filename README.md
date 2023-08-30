@@ -56,13 +56,13 @@ Vue Vben Admin is a free and open source middle and back-end template. Using the
 - Get the project code
 
 ```bash
-git clone https://github.com/anncwb/vue-vben-admin.git
+git clone https://github.com/DreamingWater/VueShopStore.git
 ```
 
 - Installation dependencies
 
 ```bash
-cd vue-vben-admin
+cd VueShopStore
 
 pnpm install
 
