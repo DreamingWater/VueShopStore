@@ -7,7 +7,7 @@
 本项目利用Vue Vben Admin作为项目前端，而利用django作为后台数据管理系统，实现前后端分离。
 Vue Vben Admin is a free and open source middle and back-end template. Using the latest `vue3`, `vite2`, `TypeScript` and other mainstream technology development, the out-of-the-box middle and back-end front-end solutions can also be used for learning reference.而django作为python网页开发利器，使用其admin管理功能可以很方便地操作数据数据库。
 ![前后端分离](assets/font_back.png)
-
+后端项目，请移步https://github.com/DreamingWater/VueShopStoreBack。
 ## Feature
 - **State of The Art Development**：Use front-end front-end technology development such as Vue3/vite2
 - **TypeScript**: Application-level JavaScript language
