@@ -1,0 +1,56 @@
+
+@header-prefix-cls: ~'@{namespace}-layout-topheader';
+
+.@{header-prefix-cls} {
+  display: flex;
+  height: @top_panel-height;
+  padding: 0;
+  margin-left: -1px;
+  line-height: @top_panel-height;
+  color: @black;
+  background-color: @black;
+  align-items: center;
+  justify-content: space-between;
+
+  &--mobile {
+    .@{header-prefix-cls}-action {
+      padding-right: 4px;
+    }
+  }
+
+  &-left {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    //margin-left: 15px;
+  }
+  &-right {
+    display: flex;
+    height: 100%;
+    //align-items: center;
+    margin-right: 10px;
+
+    .@{header-prefix-cls}-action__item {
+
+        .app-iconify {
+          padding: 0 10px;
+          font-size: 16px !important;
+        }
+
+        .ant-badge {
+          span {
+            color: #00003f;
+          }
+        }
+
+        &:hover {
+          background-color: @header-dark-bg-hover-color;
+        }
+
+    }
+  }
+
+
+
+
+}
